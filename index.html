@@ -13,15 +13,15 @@
 <body>
 
   <!-- HEADER -->
-  <div class="container mb-3">
-    <header class="d-flex flex-wrap py-3 border-bottom">
-      <a href="#" class="d-flex align-items-start mb-2 ms-0 me-auto text-dark text-decoration-none">
+  <div class="container my-3">
+    <header class="d-flex flex-wrap py-3 border-bottom" style="background-color: #e7f1ff; border-radius: 8px;">
+      <a href="#" class="d-flex align-items-start mb-2 ms-0 me-auto px-2 text-dark text-decoration-none">
         <img src="assets/img/logo-cactus.png" alt="Cactus Logo">
-        <span class="fs-4 d-inline-block ps-1 pe-3">Cactus</span>
+        <span class="d-inline-block fs-3 fw-bold ps-1 pe-3">CACTUS</span>
       </a>
 
       <!-- NAVIGATION -->
-      <nav class="navbar navbar-expand-md align-items-end me-0">
+      <nav class="navbar navbar-expand-md align-items-end me-0 px-2">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -85,11 +85,10 @@
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <strong>Cactuses, or cacti, are desert plants.</strong> They grow in dry places where other plants have
-                trouble
-                living. Their ability to store water keeps them alive. Cacti are also protected by sharp spines, or
-                needles. These discourage animals from eating them. There are about 1,650 species, or types, of cactus.
-                These plants grow mainly in the dry areas of the United States, Mexico, Central America, and South
-                America. Mexico has the greatest number and variety of cacti.
+                trouble living. Their ability to store water keeps them alive. Cacti are also protected by sharp spines,
+                or needles. These discourage animals from eating them. There are about 1,650 species, or types, of
+                cactus. These plants grow mainly in the dry areas of the United States, Mexico, Central America, and
+                South America. Mexico has the greatest number and variety of cacti.
                 Cacti are succulent plants. This means that they have thick tissues that take up and hold large amounts
                 of water. The stored water keeps them alive during dry periods. Unlike many plants, cacti do not have
                 deep roots. Instead they have roots that spread out near the surface of the soil. This is important to
@@ -150,19 +149,19 @@
         <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="assets/img/11.jpg" class="d-block w-100" alt="Nature">
+              <img src="assets/img/11.jpg" class="d-block w-100 img-thumbnail" alt="Nature">
             </div>
             <div class="carousel-item">
-              <img src="assets/img/12.jpg" class="d-block w-100" alt="Nature">
+              <img src="assets/img/12.jpg" class="d-block w-100 img-thumbnail" alt="Nature">
             </div>
             <div class="carousel-item">
-              <img src="assets/img/13.jpg" class="d-block w-100" alt="Nature">
+              <img src="assets/img/13.jpg" class="d-block w-100 img-thumbnail" alt="Nature">
             </div>
             <div class="carousel-item">
-              <img src="assets/img/14.jpg" class="d-block w-100" alt="Nature">
+              <img src="assets/img/14.jpg" class="d-block w-100 img-thumbnail" alt="Nature">
             </div>
             <div class="carousel-item">
-              <img src="assets/img/15.jpg" class="d-block w-100" alt="Nature">
+              <img src="assets/img/15.jpg" class="d-block w-100 img-thumbnail" alt="Nature">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
@@ -183,19 +182,19 @@
         <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="assets/img/13.jpg" class="d-block w-100" alt="Nature">
+              <img src="assets/img/13.jpg" class="d-block w-100 img-thumbnail" alt="Nature">
             </div>
             <div class="carousel-item">
-              <img src="assets/img/14.jpg" class="d-block w-100" alt="Nature">
+              <img src="assets/img/14.jpg" class="d-block w-100 img-thumbnail" alt="Nature">
             </div>
             <div class="carousel-item">
-              <img src="assets/img/15.jpg" class="d-block w-100" alt="Nature">
+              <img src="assets/img/15.jpg" class="d-block w-100 img-thumbnail" alt="Nature">
             </div>
             <div class="carousel-item">
-              <img src="assets/img/11.jpg" class="d-block w-100" alt="Nature">
+              <img src="assets/img/11.jpg" class="d-block w-100 img-thumbnail" alt="Nature">
             </div>
             <div class="carousel-item">
-              <img src="assets/img/12.jpg" class="d-block w-100" alt="Nature">
+              <img src="assets/img/12.jpg" class="d-block w-100 img-thumbnail" alt="Nature">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
@@ -213,6 +212,7 @@
 
     </div>
   </div>
+
 
   <!-- FORM -->
   <div class="container border-bottom">
@@ -251,18 +251,21 @@
               <option>Nowhere</option>
             </select>
           </div>
+
           <div class="col-md-2">
             <label for="inputZip" class="form-label">Zip</label>
             <input type="text" class="form-control" id="inputZip" placeholder="12345">
           </div>
+
           <div class="col-12">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="gridCheck">
               <label class="form-check-label" for="gridCheck">Check me out</label>
             </div>
           </div>
+
           <div class="col-12 my-4">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="submit" class="btn btn-light">Sign in</button>
           </div>
         </form>
 
